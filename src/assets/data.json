@@ -1,0 +1,16 @@
+{
+    "formFields": [
+      {
+        "type": "text",
+        "label": "Name",
+        "name": "name",
+        "placeholder": "Enter your name"
+      },
+      {
+        "type": "email",
+        "label": "Email",
+        "name": "email",
+        "placeholder": "Enter your email"
+      }
+    ]
+  }

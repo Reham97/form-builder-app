@@ -1,0 +1,47 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .field-list,
+  .form-builder {
+    border: 1px solid #ccc;
+    min-height: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .field-item,
+  .form-field {
+    padding: 8px;
+    margin-bottom: 6px;
+    background: white;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .form-field.selected {
+    border-color: blue;
+    background-color: #e0f0ff;
+  }
+  
+  .field-properties {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type='text'],
+  input[type='checkbox'] {
+    margin-left: 10px;
+  }
+  
